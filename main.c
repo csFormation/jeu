@@ -14,6 +14,7 @@
 
 int main()
 {
+	printf("\n Nouveal essai");
     int x,i,j;
     srand(time(NULL));
     x= rand()%10+1;
