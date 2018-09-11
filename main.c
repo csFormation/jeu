@@ -14,7 +14,7 @@
 int main(void) {
 	 int x,i,j;
 	    srand(time(NULL));
-	    x= rand()%10+1;
+	    x= rand()%100+1;
 	    for(i =0;i<3;i++)
 	    {
 	        printf("\n Enter the %d try :\n",(i+1));
@@ -27,7 +27,7 @@ int main(void) {
 	            printf("%d is less than x\n",j);
 	        }else
 	         {
-	            printf("%d = x \n YOU wins\n",j);
+	            printf("%d = x \n YOU WIN\n",j);
 	            break;
 	         }
 	    }
